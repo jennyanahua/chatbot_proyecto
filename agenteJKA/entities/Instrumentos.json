@@ -1,0 +1,9 @@
+{
+  "id": "c621c59c-3357-4137-95f2-eaa62407fe36",
+  "name": "Instrumentos",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": true
+}

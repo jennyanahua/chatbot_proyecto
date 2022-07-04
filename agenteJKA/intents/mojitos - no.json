@@ -1,0 +1,48 @@
+{
+  "id": "c5e9983b-7405-4a09-96b2-820831046a16",
+  "parentId": "33925646-fdda-4831-af6f-759168d0179f",
+  "rootParentId": "33925646-fdda-4831-af6f-759168d0179f",
+  "name": "mojitos - no",
+  "auto": true,
+  "contexts": [
+    "mojitos-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "mojitos.mojitos-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "3",
+          "platform": "facebook",
+          "imageUrl": "https://burbujasreloaded.files.wordpress.com/2018/09/hasta-pronto.jpg",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "e2c2ec4e-4866-4272-b29a-00aafc8ce84a",
+    "data": [
+      {
+        "text": "Instrumento de ",
+        "userDefined": false
+      },
+      {
+        "text": "instrument",
+        "meta": "@Instrumentos",
+        "alias": "Instrumentos",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

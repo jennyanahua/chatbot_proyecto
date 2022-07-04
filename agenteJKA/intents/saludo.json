@@ -1,0 +1,93 @@
+{
+  "id": "0c30d47a-7d5b-4511-8466-bc0ed88fcf1e",
+  "name": "saludo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "3",
+          "platform": "facebook",
+          "imageUrl": "https://scontent.ftcq1-1.fna.fbcdn.net/v/t1.18169-9/10484408_327004834134393_2574499377500935777_n.png?_nc_cat\u003d103\u0026ccb\u003d1-7\u0026_nc_sid\u003d19026a\u0026_nc_eui2\u003dAeEDuIGkKX8NHBf84lyOCSbTZ4oy1XJj83NnijLVcmPzc9jopOH64s6a1b3UuLmkvbE\u0026_nc_ohc\u003diWikePdoYTsAX_Eb_FX\u0026_nc_ht\u003dscontent.ftcq1-1.fna\u0026oh\u003d00_AT9xr8XzY_C1K4KyNF4nR90umuLcfZwOyN3KaHLRwf0RQA\u0026oe\u003d62E5A5E6",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Bienvenido a Restaurant los Angeles, somos un restaurant campestre ubicado en la ciudad de Tacna (Y) Nuestro asistente de chat te ayudara a resolver tus dudas,gracias :D"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://servicios.rapimozo.com/assets/images/logo-rapimozo-192x192.png",
+          "subtitle": "Ir a",
+          "title": "AngelesBot",
+          "buttons": [
+            {
+              "postback": "https://www.google.com/maps/place/Restaurante+Los+%C3%81ngeles/@-17.9848079,-70.2115637,15z/data\u003d!4m2!3m1!1s0x0:0x142396116750abf9?sa\u003dX\u0026ved\u003d2ahUKEwj_j4LQtNr4AhVgB7kGHXRSAkQQ_BJ6BAg3EAU",
+              "text": "ubicacion"
+            },
+            {
+              "postback": "https://www.facebook.com/permalink.php?story_fbid\u003dpfbid02Jyi9pRtQsertW854RLdSU68BCyZiEGsTeAXYuzt9iRcXzchQNxuJQgbAEeo1YZnPl\u0026id\u003d102668762173118",
+              "text": "menu"
+            },
+            {
+              "postback": "mailto:jedia8@hotmail.com",
+              "text": "Correo"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Otra consulta?  🤖"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Saludos"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "a50e174d-2621-491f-8390-1645f7eb9b3f",
+    "data": [
+      {
+        "text": "quisiera ",
+        "userDefined": false
+      },
+      {
+        "text": "mojitos",
+        "meta": "@cartacategoria",
+        "alias": "cartacategoria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "dcb04a82-c10f-4fbc-aca1-56c5202da7e1",
+    "data": [
+      {
+        "text": "mojitos",
+        "meta": "@cartacategoria",
+        "alias": "cartacategoria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

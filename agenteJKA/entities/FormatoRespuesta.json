@@ -1,0 +1,9 @@
+{
+  "id": "88c842c3-ea1b-4649-a65b-7114d13ab4c3",
+  "name": "FormatoRespuesta",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": true
+}

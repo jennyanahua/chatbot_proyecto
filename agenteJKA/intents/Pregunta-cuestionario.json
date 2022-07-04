@@ -1,0 +1,60 @@
+{
+  "id": "e5dcae1a-29fa-4ecd-93f6-da1be4780e7f",
+  "name": "Pregunta-cuestionario",
+  "auto": true,
+  "contexts": [
+    "contextoCuestionario"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Pregunta-cuestionario.action",
+      "affectedContexts": [
+        {
+          "name": "contextoCuestionario",
+          "lifespan": 5,
+          "parameters": {}
+        },
+        {
+          "name": "Pregunta-cuestionario-followup",
+          "lifespan": 2,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "73399c25-c4fe-47c2-a92c-86747fae9c46",
+          "name": "orden",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$orden",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

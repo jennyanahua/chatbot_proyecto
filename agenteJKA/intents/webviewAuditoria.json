@@ -1,0 +1,52 @@
+{
+  "id": "6fadc6d4-4173-41f4-9b05-812c6099cd67",
+  "name": "webviewAuditoria",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "payload": {
+                  "template_type": "button",
+                  "buttons": [
+                    {
+                      "webview_height_ratio": "full",
+                      "url": "https://auditorbot.herokuapp.com/",
+                      "type": "web_url",
+                      "title": "URL Button",
+                      "messenger_extensions": "true"
+                    }
+                  ],
+                  "text": "Aca esta el link"
+                },
+                "type": "template"
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

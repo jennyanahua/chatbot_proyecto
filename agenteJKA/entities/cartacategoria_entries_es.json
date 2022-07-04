@@ -1,0 +1,38 @@
+[
+  {
+    "value": "bebidas",
+    "synonyms": [
+      "Gaseosas, mojitos, vino,chicha"
+    ]
+  },
+  {
+    "value": "entradas",
+    "synonyms": [
+      "entradas"
+    ]
+  },
+  {
+    "value": "cazuelas",
+    "synonyms": [
+      "cazuelas"
+    ]
+  },
+  {
+    "value": "parrilladas",
+    "synonyms": [
+      "parrilladas"
+    ]
+  },
+  {
+    "value": "chicharrones",
+    "synonyms": [
+      "chicharrones"
+    ]
+  },
+  {
+    "value": "criollos",
+    "synonyms": [
+      "criollos"
+    ]
+  }
+]

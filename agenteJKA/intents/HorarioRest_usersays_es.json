@@ -1,0 +1,71 @@
+[
+  {
+    "id": "f6d32739-dca6-4cd7-a670-5752f7ce7682",
+    "data": [
+      {
+        "text": "|",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "86142c4f-7420-48cd-9628-e0a945dc4e84",
+    "data": [
+      {
+        "text": "hora",
+        "userDefined": false
+      },
+      {
+        "text": " de atencion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "957198b8-ab08-46f0-acc2-1517c8817c70",
+    "data": [
+      {
+        "text": "horario",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1b090293-8115-4eab-836d-b66450021d5e",
+    "data": [
+      {
+        "text": "hora",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8dd5ed23-e136-4351-a89a-799df085e814",
+    "data": [
+      {
+        "text": "Horario de Atencion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  }
+]

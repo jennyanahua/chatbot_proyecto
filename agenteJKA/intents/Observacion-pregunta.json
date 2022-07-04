@@ -1,0 +1,57 @@
+{
+  "id": "f74db678-2643-4a12-b034-5303b69b4eb1",
+  "parentId": "0a6f4d18-96e5-4dc5-a613-ba3964c3e391",
+  "rootParentId": "e5dcae1a-29fa-4ecd-93f6-da1be4780e7f",
+  "name": "Observacion-pregunta",
+  "auto": true,
+  "contexts": [
+    "contextoCuestionario",
+    "Respuesta-pregunta-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Observacion-pregunta.action",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8fc511de-2c2a-48ac-9673-e4a4500c48e7",
+          "name": "observacion",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$observacion",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Por favor, indica escribe fue la observación:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

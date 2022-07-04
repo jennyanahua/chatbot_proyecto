@@ -1,0 +1,41 @@
+[
+  {
+    "id": "083315d7-b25b-42c3-9529-0a16b4d3b10c",
+    "data": [
+      {
+        "text": "que cuestionarios tengo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1cc9375e-ac69-43ca-9ff1-5518307127ec",
+    "data": [
+      {
+        "text": "que cuestionarios tengo disponible",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9e99b477-957a-4f18-bde9-cb41ed352f5f",
+    "data": [
+      {
+        "text": "ListarCuestionarios",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

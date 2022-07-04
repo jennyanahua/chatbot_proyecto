@@ -1,0 +1,9 @@
+{
+  "id": "462f6624-bdd3-4f52-ac5b-79b61616d83a",
+  "name": "cartacategoria",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": true
+}

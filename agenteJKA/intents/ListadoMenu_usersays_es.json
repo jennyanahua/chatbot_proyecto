@@ -1,0 +1,67 @@
+[
+  {
+    "id": "33df0171-4bf4-4229-8b71-ff73ed213cfe",
+    "data": [
+      {
+        "text": "carta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "18640aeb-74af-47dc-ab8a-7d3e65fa8020",
+    "data": [
+      {
+        "text": "platos disponibles",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "6bb7781d-4faf-4732-b1c2-405b435bd7a9",
+    "data": [
+      {
+        "text": "que productos ofrece",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "29ab8a8c-e203-45db-8785-aecdea6c16fa",
+    "data": [
+      {
+        "text": "que ofrece",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c89d87d6-bcfb-4b1d-a151-7e639ce9a1c3",
+    "data": [
+      {
+        "text": "muestrame tu menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "id": "1defa28a-f2e7-4ab0-8c1d-231849a0c1d5",
+  "name": "CuestionarioAuditoria",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CuestionarioAuditoriaAction",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ab7bbf81-25c9-44fc-aa07-37c999ac8b93",
+          "name": "Instrumentos",
+          "required": false,
+          "dataType": "@Instrumentos",
+          "value": "$Instrumentos",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Ok, te mostraré los ítems del instrumento: $Instrumentos"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

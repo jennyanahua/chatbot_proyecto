@@ -1,0 +1,70 @@
+{
+  "id": "33925646-fdda-4831-af6f-759168d0179f",
+  "name": "mojitos",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "mojitos-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "92b8e36b-96fc-4d4f-a1b5-115a61aac2b0",
+          "name": "cartacategoria",
+          "required": false,
+          "dataType": "@cartacategoria",
+          "value": "$cartacategoria",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "Algo mas?",
+          "replies": [
+            "si",
+            "no"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "tenemos mojitos de piña, maracuya,fresa, limon"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

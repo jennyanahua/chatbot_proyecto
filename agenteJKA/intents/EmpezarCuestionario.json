@@ -1,0 +1,58 @@
+{
+  "id": "8a6bf3a3-0557-42cc-8d7c-cc132e00fb70",
+  "name": "EmpezarCuestionario",
+  "auto": true,
+  "contexts": [
+    "contextoCuestionario"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "EmpezarCuestionario.action",
+      "affectedContexts": [
+        {
+          "name": "contextoCuestionario",
+          "lifespan": 5,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5247b5b7-0492-493b-83d9-d7facc37f94a",
+          "name": "id_auditoria",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$id_auditoria",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Está bien, empezaremos el cuestionario"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

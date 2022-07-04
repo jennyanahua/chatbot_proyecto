@@ -1,0 +1,21 @@
+[
+  {
+    "id": "78600a9d-a472-477a-bd35-3df4b5bfd5d9",
+    "data": [
+      {
+        "text": "EmpezarCuestionario ",
+        "userDefined": false
+      },
+      {
+        "text": "id_auditoria",
+        "meta": "@sys.number",
+        "alias": "id_auditoria",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

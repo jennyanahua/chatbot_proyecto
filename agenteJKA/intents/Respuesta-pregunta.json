@@ -1,0 +1,55 @@
+{
+  "id": "0a6f4d18-96e5-4dc5-a613-ba3964c3e391",
+  "parentId": "e5dcae1a-29fa-4ecd-93f6-da1be4780e7f",
+  "rootParentId": "e5dcae1a-29fa-4ecd-93f6-da1be4780e7f",
+  "name": "Respuesta-pregunta",
+  "auto": true,
+  "contexts": [
+    "contextoCuestionario",
+    "Pregunta-cuestionario-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Respuesta-pregunta.action",
+      "affectedContexts": [
+        {
+          "name": "contextoCuestionario",
+          "lifespan": 5,
+          "parameters": {}
+        },
+        {
+          "name": "Respuesta-pregunta-followup",
+          "lifespan": 2,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "53e47cfc-0156-4c86-8a5c-2d5f28ddfe67",
+          "name": "respuesta",
+          "required": false,
+          "dataType": "@FormatoRespuesta",
+          "value": "$respuesta",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,61 @@
+{
+  "id": "38836b9e-8f3b-4789-99f2-17ab0aeeeff6",
+  "parentId": "7f0d1547-8a71-43e9-839e-74f22c283ed6",
+  "rootParentId": "7f0d1547-8a71-43e9-839e-74f22c283ed6",
+  "name": "SeleccionCuestionario",
+  "auto": true,
+  "contexts": [
+    "ListadoCuestionarios-followup",
+    "contextoCuestionario"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "SeleccionCuestionario.action",
+      "affectedContexts": [
+        {
+          "name": "contextoCuestionario",
+          "lifespan": 5,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b0ebc122-80c1-4d79-8232-a35347dfb64a",
+          "name": "id_cuestionario",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$id_cuestionario",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Seleccionaste el cuestionario: $id_cuestionario"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "c63b1eda-1bd4-4573-b305-4cd080036cbe",
+    "data": [
+      {
+        "text": "quisiera ",
+        "userDefined": false
+      },
+      {
+        "text": "cartacategoria",
+        "meta": "@cartacategoria",
+        "alias": "cartacategoria",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2bfb56c4-626a-44ef-94b9-16aa2fdc4c38",
+    "data": [
+      {
+        "text": "cartacategoria",
+        "meta": "@cartacategoria",
+        "alias": "cartacategoria",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

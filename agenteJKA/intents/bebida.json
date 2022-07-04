@@ -1,0 +1,72 @@
+{
+  "id": "d752a9ca-265c-4f2b-b51e-097cb4082632",
+  "name": "bebida",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Pedido Recepcionado!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://images.ecestaticos.com/bKk8Bn9K2l6atrhElxjmcQy_G4w\u003d/1x195:1989x1311/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F2db%2F1d6%2Fc60%2F2db1d6c6090ea66fbb95d6b391edc903.jpg",
+          "title": "bebidas",
+          "buttons": [
+            {
+              "postback": "elegiste cocteles",
+              "text": "mojitos"
+            },
+            {
+              "postback": "elegiste vinos",
+              "text": "vinos"
+            },
+            {
+              "postback": "elegiste gaseosas",
+              "text": "gaseosas"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Bebidas:"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "3c7cb94e-3123-424e-b475-efa766e3b801",
+  "parentId": "33925646-fdda-4831-af6f-759168d0179f",
+  "rootParentId": "33925646-fdda-4831-af6f-759168d0179f",
+  "name": "mojitos - yes",
+  "auto": true,
+  "contexts": [
+    "mojitos-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "mojitos.mojitos-yes",
+      "affectedContexts": [
+        {
+          "name": "saludo",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

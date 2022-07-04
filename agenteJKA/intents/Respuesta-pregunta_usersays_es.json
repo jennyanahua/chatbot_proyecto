@@ -1,0 +1,17 @@
+[
+  {
+    "id": "5089cf01-3343-4e9c-8578-b918b2cc3171",
+    "data": [
+      {
+        "text": "respuesta",
+        "meta": "@FormatoRespuesta",
+        "alias": "respuesta",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

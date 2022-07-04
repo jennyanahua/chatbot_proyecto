@@ -1,0 +1,45 @@
+{
+  "id": "fc90ad8b-baa8-4185-99f5-098a1ebf96ac",
+  "name": "ListadoMenu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "🍽 Nuestra carta es la siguiente (por categoria): 🍽"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "🍹 Bebidas\n🥗 Entradas\n🍜  Cazuelas\n🍱 Parrilladas\n🍗 Chicharrones\n🍛 Criollos"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

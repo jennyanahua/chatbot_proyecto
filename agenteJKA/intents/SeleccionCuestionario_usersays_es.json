@@ -1,0 +1,17 @@
+[
+  {
+    "id": "b92f0bd1-e8b3-40c9-b0b1-56e41c51bb73",
+    "data": [
+      {
+        "text": "id_cuestionario",
+        "meta": "@sys.number",
+        "alias": "id_cuestionario",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  }
+]

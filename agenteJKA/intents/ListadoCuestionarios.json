@@ -1,0 +1,46 @@
+{
+  "id": "7f0d1547-8a71-43e9-839e-74f22c283ed6",
+  "name": "ListadoCuestionarios",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ListadoCuestionarios.action",
+      "affectedContexts": [
+        {
+          "name": "ListadoCuestionarios-followup",
+          "lifespan": 2,
+          "parameters": {}
+        },
+        {
+          "name": "contextoCuestionario",
+          "lifespan": 5,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Estos son los cuestionarios que tienes disponible:"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

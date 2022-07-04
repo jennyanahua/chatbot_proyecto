@@ -1,0 +1,21 @@
+[
+  {
+    "id": "ebe77e9e-59a4-4d47-b7d4-43c0e47b3c39",
+    "data": [
+      {
+        "text": "Pregunta ",
+        "userDefined": false
+      },
+      {
+        "text": "orden",
+        "meta": "@sys.number",
+        "alias": "orden",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]
